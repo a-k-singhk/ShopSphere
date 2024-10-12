@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Dependency directories
+package-lock.json
+yarn.lock
+
+# IDE or Editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Miscellaneous files
+*.tgz
+*.zip
+*.tar
+*.gz
+
+# Ignore any compiled TypeScript files if using TypeScript
+*.js
+*.d.ts
