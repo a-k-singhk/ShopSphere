@@ -8,10 +8,7 @@ ShopSphere is a feature-rich, full-stack e-commerce application built using the 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Setup Environment Variables](#setup-environment-variables)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support](#support)
+- [Install Dependencies](#install-dependencies).
 
 ## Features
 
@@ -42,18 +39,22 @@ To get started with ShopSphere, follow the steps below:
 - MongoDB (Atlas or local instance)
 - npm or Yarn
 
-### Clone the Repository
 
-### Create a .env file in the root of your project directory and add the following configuration to your .env file:
-- PORT=5000
-- MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database>
-- CORS_ORIGIN=http://localhost:5173
-- CLOUDINARY_CLOUD_NAME=<your_cloud_name>
-- CLOUDINARY_API_KEY=<your_api_key>
-- CLOUDINARY_API_SECRET=<your_api_secret>
-- PAYPAL_MODE=sandbox
-- PAYPAL_CLIENT_ID=<your_client_id>
-- PAYPAL_CLIENT_SECRET=<your_client_secret>
+### Clone the Repository
+	git clone https://github.com/a-k-singhk/ShopSphere.git
+	cd ShopSphere
+
+
+### Setup Environment Variables
+	PORT=5000
+	MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<database>
+	CORS_ORIGIN=http://localhost:5173
+	CLOUDINARY_CLOUD_NAME=<your_cloud_name>
+	CLOUDINARY_API_KEY=<your_api_key>
+	CLOUDINARY_API_SECRET=<your_api_secret>
+	PAYPAL_MODE=sandbox
+	PAYPAL_CLIENT_ID=<your_client_id>
+	PAYPAL_CLIENT_SECRET=<your_client_secret>
 
 ### Install Dependencies
 - for server
@@ -65,7 +66,7 @@ To get started with ShopSphere, follow the steps below:
   ```bash
   cd ../client
   npm install
--Run the server
+- Run the server
   ```bash
     cd server
     npm run dev
