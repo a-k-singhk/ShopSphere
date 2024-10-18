@@ -42,6 +42,3 @@ coverage/
 *.tar
 *.gz
 
-# Ignore any compiled TypeScript files if using TypeScript
-*.js
-*.d.ts
