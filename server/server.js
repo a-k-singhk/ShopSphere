@@ -1,6 +1,6 @@
 // Load environment variables from .env file
 require("dotenv").config();
-
+//import dotenv from "dotenv";
 const express = require("express");
 const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
@@ -17,6 +17,10 @@ const shopSearchRouter = require("./routes/shop/search-routes");
 const shopReviewRouter = require("./routes/shop/review-routes");
 
 const commonFeatureRouter = require("./routes/common/feature-routes");
+ /*
+dotenv.config({
+  path:'./env'
+})*/
 
 // Connect to MongoDB using the connection string from the .env file
 mongoose
